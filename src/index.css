@@ -1,10 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'logoFont';
+  src: url('./assets/font/Unbounded-Black.ttf') format('truetype');
+  font-weight: 500; /* Đây là biến thể ExtraBold, có font-weight rất mạnh */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'logoFont';
+  src: url('./assets/font/Unbounded-Light.ttf') format('truetype');
+  font-weight: 400; /* Đây là biến thể ExtraBold, có font-weight rất mạnh */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'logoFont';
+  src: url('./assets/font/Unbounded-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* Đây là biến thể ExtraBold, có font-weight rất mạnh */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'logoFont';
+  src: url('./assets/font/Unbounded-Bold.ttf') format('truetype');
+  font-weight: 700; /* Đây là biến thể ExtraBold, có font-weight rất mạnh */
+  font-style: normal;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  font-family: 'logoFont';
+  scroll-behavior: smooth;
 }
 
 code {
