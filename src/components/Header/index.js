@@ -9,7 +9,7 @@ export default function Header() {
             <div className='p-3 shadow-md shadow-zinc-500' style={{ background: '#faf4f0' }}>
                 <header className='w-4/5 mx-auto flex justify-between items-center'>
                     <a href="" className='block'>
-                        <img src="../img/logo-yumun.png" width={150} height={150} alt="logo" />
+                        <img src="../img/logo_glamour.jpg" width={150} height={150} alt="logo" />
                     </a>
                     <button className='hover:scale-110 duration-200' onClick={() => setIsShow(true)}>
                         <FontAwesomeIcon className='text-2xl' style={{ color: '#7f6c55' }} icon={faBars}></FontAwesomeIcon>

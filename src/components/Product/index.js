@@ -9,7 +9,7 @@ export default function Product() {
                 <div className='w-4/5 mx-auto'>
                     <div className='grid md:grid-cols-3 gap-5 md:gap-10 py-5 md:py-10'>
                         <div className='md:col-span-1'>
-                            <img className='object-cover rounded-md shadow-lg shadow-zinc-400 hover:scale-105 duration-200' src="../img/img3.jpg" alt="product" />
+                            <img className='object-cover rounded-md shadow-lg shadow-zinc-400 hover:scale-105 duration-200' src="../img/img6.jpg" alt="product" />
                         </div>
                         <div className='md:w-2/3 mx-auto md:col-span-2 pt-5'>
                             <h1 className='font-medium text-2xl text-center mb-5' style={{ color: '#7f6c55' }}>Tẩy tế bào chết cà phê Glamour</h1>
