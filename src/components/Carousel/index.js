@@ -14,16 +14,13 @@ export default function Carousel() {
             slidesPerView={1}
         >
             <SwiperSlide>
-                <img className='object-cover aspect-[4/1.7]' src="https://lelabo.com.vn/upload/images/slide/2022_29_11_19_10_12-slide3.jpg" alt="carousel-1" />
+                <img className='object-cover aspect-[4/1.7]' src="../img/img2.jpg" alt="carousel-3" />
             </SwiperSlide>
             <SwiperSlide>
-                <img className='object-cover aspect-[4/1.7]' src="https://lelabo.com.vn/upload/images/slide/2022_29_11_19_11_14-slide4.jpg" alt="carousel-2" />
+                <img className='object-cover aspect-[4/1.7]' src="../img/img1.jpg" alt="carousel-1" />
             </SwiperSlide>
             <SwiperSlide>
-                <img className='object-cover aspect-[4/1.7]' src="https://lelabo.com.vn/upload/images/slide/2022_29_11_09_34_17-855_ONE_SIZE_IMAGE_01_8852_1377049543.jpg" alt="carousel-3" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className='object-cover aspect-[4/1.7]' src="https://lelabo.com.vn/upload/images/slide/2022_29_11_19_07_33-923_ONE_SIZE_IMAGE_01_10884_1214212543.jpg" alt="carousel-4" />
+                <img className='object-cover aspect-[4/1.7]' src="../img/img4.jpg" alt="carousel-2" />
             </SwiperSlide>
         </Swiper>
     );
