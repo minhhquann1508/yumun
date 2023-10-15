@@ -19,7 +19,8 @@ export default function Payment(props) {
         initialValues: {
             userName: '',
             address: '',
-            email: ''
+            email: '',
+            phone: ''
         },
         validationSchema: paymentSchema,
         onSubmit: (value) => {
@@ -53,17 +54,22 @@ export default function Payment(props) {
                     <div className='mb-3'>
                         <h6 className='mb-2'>Tên người đặt</h6>
                         <input name='userName' onChange={formik.handleChange} onBlur={formik.handleBlur} className='border rounded-md w-full p-2' type="text" />
-                        {formik.touched.userName && formik.errors.userName ? <p className='text-red-500'>{formik.errors.userName}</p> : ''}
+                        {formik.touched.userName && formik.errors.userName ? <p className='text-red-500 text-sm'>{formik.errors.userName}</p> : ''}
                     </div>
                     <div className='mb-3'>
                         <h6 className='mb-2'>Địa chỉ</h6>
                         <input name='address' onChange={formik.handleChange} onBlur={formik.handleBlur} className='border rounded-md w-full p-2' type="text" />
-                        {formik.touched.address && formik.errors.address ? <p className='text-red-500'>{formik.errors.address}</p> : ''}
+                        {formik.touched.address && formik.errors.address ? <p className='text-red-500 text-sm'>{formik.errors.address}</p> : ''}
+                    </div>
+                    <div className='mb-5'>
+                        <h6 className='mb-2'>Số điện thoại</h6>
+                        <input name='email' onChange={formik.handleChange} onBlur={formik.handleBlur} className='border rounded-md w-full p-2' type="text" />
+                        {formik.touched.phone && formik.errors.phone ? <p className='text-red-500 text-sm'>{formik.errors.phone}</p> : ''}
                     </div>
                     <div className='mb-5'>
                         <h6 className='mb-2'>Email</h6>
                         <input name='email' onChange={formik.handleChange} onBlur={formik.handleBlur} className='border rounded-md w-full p-2' type="text" />
-                        {formik.touched.email && formik.errors.email ? <p className='text-red-500'>{formik.errors.email}</p> : ''}
+                        {formik.touched.email && formik.errors.email ? <p className='text-red-500 text-sm'>{formik.errors.email}</p> : ''}
                     </div>
                     <div className='text-center'>
                         <button type='submit' className='w-full p-2 text-white rounded-md' style={{ background: '#7f6c55' }}>Đặt hàng</button>
